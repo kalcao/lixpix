@@ -2,10 +2,10 @@
 
 # Select the OS version based on the environment variable
 case $OS_VERSION in
-    "ubuntu:20.04")
+    "ubuntu2004")
         image="ubuntu:20.04"
         ;;
-    "debian:10")
+    "debian10")
         image="debian:10"
         ;;
     "alpine")
