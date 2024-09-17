@@ -9,7 +9,7 @@ echo "root:${SSH_PASSWORD}" | chpasswd
 service ssh start
 
 # Ensure systemd is set up correctly
-if [[ "$OS_VERSION" == "ubuntu:20.04" || "$OS_VERSION" == "debian:10" ]]; then
+if [[ "$OS_VERSION" == "ubuntu2004" || "$OS_VERSION" == "debian10" ]]; then
   apt-get install -y systemd systemd-sysv
   service systemd start
 fi
