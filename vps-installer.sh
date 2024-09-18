@@ -24,7 +24,7 @@ done
 systemctl enable systemd-networkd
 systemctl enable systemd-resolved
 
-wget https://raw.githubusercontent.com/kalcao/lixpix/main/run.sh -O /var/run.sh
+wget https://raw.githubusercontent.com/kalcao/lixpix/main/run.sh -O /home/run.sh
 chmod +x /var/run.sh
 pwd
 # Configure SSH
