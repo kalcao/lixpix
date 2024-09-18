@@ -26,6 +26,7 @@ systemctl enable systemd-resolved
 
 wget https://raw.githubusercontent.com/kalcao/lixpix/main/run.sh -O /var/run.sh
 chmod +x /var/run.sh
+pwd
 # Configure SSH
 mkdir /var/run/sshd
 echo 'root:password' | chpasswd
