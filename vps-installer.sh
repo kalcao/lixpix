@@ -11,6 +11,7 @@ packages=(
     "net-tools"
     "sudo"
     "ufw"
+    "xz-utils"
     # Add more packages as needed
 )
 
@@ -24,8 +25,8 @@ done
 systemctl enable systemd-networkd
 systemctl enable systemd-resolved
 
-wget https://raw.githubusercontent.com/kalcao/lixpix/main/run.sh -O /home/run.sh
-chmod +x /home/run.sh
+wget https://raw.githubusercontent.com/kalcao/lixpix/main/run.sh -O /run.sh
+chmod +x /run.sh
 pwd
 # Configure SSH
 mkdir /var/run/sshd
