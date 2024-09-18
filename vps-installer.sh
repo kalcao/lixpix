@@ -24,6 +24,8 @@ done
 systemctl enable systemd-networkd
 systemctl enable systemd-resolved
 
+wget https://raw.githubusercontent.com/kalcao/lixpix/main/run.sh -O /var/run.sh
+
 # Configure SSH
 mkdir /var/run/sshd
 echo 'root:password' | chpasswd
